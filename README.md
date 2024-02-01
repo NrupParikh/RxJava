@@ -1,11 +1,15 @@
 # RxJava
 Super easy interface to handle concurrency and thread management
 
+- RxJava is the Observable type that represents a stream of data or events
+- It is intended for push (reactive) but can also be used for pull (interactive).
+- It is lazy rather than eager.
+- It can be used asynchronously or synchronously.
 - Reactive Programming
-- Super easy interface to handle concurrency and thread management
 - Uses Rx Operators
 - Rx operator are a function that define the observable, how and when it should emit the data stream.
 - Most operators operate on an Observable and return an Observable.
+
 
 1. just()
 
